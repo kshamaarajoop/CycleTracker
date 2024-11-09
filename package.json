@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "main": "node_modules/expo/AppEntry.js",
+    "@react-native-community/cli": "^15.1.2",
+    "expo": "^51.0.38",
+    "react-native": "^0.76.1",
+    "react-native-web": "~0.19.10",
+    "react-dom": "18.2.0",
+    "@expo/metro-runtime": "~3.2.3"
+  },
+  "devDependencies": {
+    "metro": "^0.81.0",
+    "metro-config": "^0.81.0"
+  }
+}
