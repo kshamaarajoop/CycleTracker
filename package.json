@@ -1,12 +1,20 @@
 {
+  "name": "cycletracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "web": "expo start --web"},
   "dependencies": {
-    "main": "node_modules/expo/AppEntry.js",
+    "@expo/metro-runtime": "~3.2.3",
     "@react-native-community/cli": "^15.1.2",
-    "expo": "^51.0.38",
-    "react-native": "^0.76.1",
-    "react-native-web": "~0.19.10",
+    "@react-native-picker/picker": "^2.9.0",
+    "expo": "^50.0.0",
+    "main": "index.js",
     "react-dom": "18.2.0",
-    "@expo/metro-runtime": "~3.2.3"
+    "react-native": "^0.76.1",
+    "react-native-calendars": "^1.1307.0",
+    "react-native-web": "~0.19.10"
   },
   "devDependencies": {
     "metro": "^0.81.0",
